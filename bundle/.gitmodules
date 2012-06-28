@@ -1,0 +1,24 @@
+[submodule "supertab"]
+	path = supertab
+	url = https://github.com/ervandew/supertab
+[submodule "syntastic"]
+	path = syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "lusty"]
+	path = lusty
+	url = git://github.com/sjbach/lusty.git
+[submodule "vim-css3-syntax"]
+	path = vim-css3-syntax
+	url = git://github.com/hail2u/vim-css3-syntax.git
+[submodule "html5.vim"]
+	path = html5.vim
+	url = git://github.com/othree/html5.vim.git
+[submodule "vim-surround"]
+	path = vim-surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule "vim-fugitive"]
+	path = vim-fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule "neocomplcache"]
+	path = neocomplcache
+	url = git://github.com/Shougo/neocomplcache.git
