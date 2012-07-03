@@ -3,6 +3,7 @@ filetype plugin indent on
 set backspace=indent,eol,start " backspace over everything in insert
 set viminfo=  " no history by default, please
 set noswapfile  " leave less traces by default
+set backupdir=~/.vim/backup,.,/tmp/,~/  " write writebackups and co. in ~/.vim/backup
 
 " === Vim UI ===
 set ruler  " show the cursor position all the time
@@ -11,7 +12,6 @@ set number  " turn on line numbers
 set virtualedit=all  " cursor can be positioned where there is no character
 set display=lastline " show as much of the final (wrapped) line as there is space
 set clipboard=unnamed,autoselect,exclude:cons\|linux
-set mouse=a
 
 " syntax and search highlighting on color terminals and GUI
 if &t_Co > 2 || has("gui_running")
