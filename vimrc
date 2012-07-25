@@ -12,6 +12,7 @@ set number  " turn on line numbers
 set virtualedit=all  " cursor can be positioned where there is no character
 set display=lastline " show as much of the final (wrapped) line as there is space
 set clipboard=unnamed,autoselect,exclude:cons\|linux
+set mouse=a
 
 " syntax and search highlighting on color terminals and GUI
 if &t_Co > 2 || has("gui_running")
